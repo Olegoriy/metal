@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+    font-size: 22px;
+    box-sizing: border-box;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    min-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
