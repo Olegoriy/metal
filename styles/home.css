@@ -7,4 +7,68 @@
     background-repeat: no-repeat; 
 }
 
+.home__info {
+    display: flex;
+    flex-direction: column;
+    max-width: 1180px;
+    min-height: 74px;
+    margin: 0 auto;
+}
 
+.title__home {
+    margin-top: 138px;
+    margin-bottom: 55px;
+    width: 735px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #dedede;
+}
+
+.services__home {
+    list-style: none;
+}
+
+.service__item {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.service__text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #dedede;
+}
+
+.service__text.first {
+    width: 284px;
+}
+
+.service__text.second {
+    width: 214px;
+}
+
+.service__text.third {
+    width: 119px;
+}
+
+.service__text.fourth {
+    width: 266px;
+}
+
+.service__img {
+    width: 32px;
+    margin-right: 15px;
+}
+
+.home__btn {
+    border-radius: 10px;
+    padding: 20px 50px;
+    width: 268px;
+    height: 61px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #2f2f2f;
+}
