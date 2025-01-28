@@ -1,0 +1,10 @@
+.home__page {
+    width: 100vw;
+    height: 962px;
+    background-image: url('../img/home.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
