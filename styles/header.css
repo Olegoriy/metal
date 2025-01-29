@@ -12,11 +12,16 @@
     align-items: center;
 }
 
+.status_and_button {
+    display: flex;
+}
+
 
 .status {
     display: flex;
     flex-direction: column;
     width: 206px;
+    margin-right: 20px;
 }
 
 .working {
