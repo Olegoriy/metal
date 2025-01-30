@@ -23,3 +23,9 @@ a {
 .bold {
     font-weight: bold;
 }
+
+.transition {
+    background-size: contain;
+    width: 100vw;
+    margin-top: -2vw;
+}

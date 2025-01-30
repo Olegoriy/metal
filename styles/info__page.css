@@ -1,25 +1,111 @@
 .info__page {
     width: 100vw;
     height: 1201px;
+    background-image: url('/img/info__img.png');
 }
 
 .title__info {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 48px;
     line-height: 120%;
     color: #1e1e1e;
     text-align: center;
-    margin-top: 63px;
+    padding-top: 63px;
+    margin-bottom: 50px;
 }
 
 .blocks__info {
-
+    max-width: 1180px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 0.9fr);
+    grid-template-areas: 
+    'first second'
+    'third fourth'
+    ;
+    column-gap: 20px;
 }
 
 .first__block__info {
-
+    grid-area: first;
 }
 
 .text__date__info {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1e1e1e;
+}
 
+.second__block__info {
+    grid-area: second;
+}
+
+.img__bor {
+    
+}
+
+.text__bor {
+    width: 98%;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 16px;
+    color: #1e1e1e;
+}
+
+.third__block__info {
+    grid-area: third;
+}
+
+.img__laser {
+
+}
+
+.title__laser {
+    margin: 15px 0 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: #1e1e1e;
+}
+
+.text__laser {
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1e1e1e;
+    text-align: inherit;
+    width: 90%;
+}
+
+.fourth__block__info {
+    grid-area: fourth;
+}
+
+.img__machinery {
+
+}
+
+.title__machinery {
+    margin: 15px 0 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: #1e1e1e;
+}
+
+.text__machinery {
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1e1e1e;
+    text-align: inherit;
+    width: 90%;
+}
+
+@media (max-width: 1300px) {
+    .blocks__info {
+        max-width: 90vw;
+    }
 }
