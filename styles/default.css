@@ -29,3 +29,24 @@ a {
     width: 100vw;
     margin-top: -2vw;
 }
+
+.title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+}
+
+.block {
+    border: 1px solid #dedede;
+    border-radius: 15px;
+    width: 560px;
+    height: 833px;
+}
+
+.title__block {
+    font-weight: 400;
+    font-size: 24px;
+    color: #dedede;
+    margin: 30px auto 20px;
+}

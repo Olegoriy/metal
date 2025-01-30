@@ -3,3 +3,33 @@
     height: 1183px;
     background-image: url('/img/processing.png');
 }
+
+.title__processing {
+    color: #dedede;
+    margin-top: 65px;
+    margin-bottom: 50px;
+}
+
+.blocks__processing {
+    display: flex;
+    max-width: 1180px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first__block {
+
+}
+
+.second__block {
+
+}
+
+.first__title__block {
+    width: 300px;   
+}
+
+.second__title__block {
+    width: 350px;
+}
