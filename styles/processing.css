@@ -18,12 +18,26 @@
     align-items: center;
 }
 
-.first__block {
-
+.block {
+    position: relative;
+    border: 1px solid #dedede;
+    border-radius: 15px;
+    width: 560px;
+    height: 833px;
+    text-align: center;
+    background-image: url('/img/back__block.svg')
 }
 
-.second__block {
+.title__block {
+    font-weight: 500;
+    font-size: 24px;
+    color: #dedede;
+    margin: 30px auto 20px;
+}
 
+.processing__img {
+    width: 474px;
+    height: 299px;
 }
 
 .first__title__block {
@@ -32,4 +46,58 @@
 
 .second__title__block {
     width: 350px;
+}
+
+.description__processing {
+    width: 60%;
+    font-weight: 400;
+    font-size: 15px;
+    color: #dedede;
+    margin-top: 20px;
+    margin-left: 53px;
+    text-align: left;
+}
+
+.metals__list {
+    margin-top: 10px;
+}
+
+.item__list {
+    width: 60%;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 140%;
+    color: #dedede;
+    margin-left: 73px;
+    text-align: left;   
+}
+
+.second__list {
+    width: 110%;
+}
+
+.star__description {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 170%;
+    color: #a3a3a3;
+    width: 65%;
+    text-align: left;
+    margin: 0;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.detailed {
+    position: absolute;
+    margin: 0 auto;
+    right: 25%;
+    bottom: 20px;
+    width: 268px;
+    height: 61px;
+    font-weight: 600;
+    border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
+    color: #2f2f2f;
 }
