@@ -1,0 +1,36 @@
+.production__block {
+    width: 100vw;
+    height: 711px;
+    background-image: url('/img/info__img.png');
+}
+
+.title__production {
+    padding-top: 63px;
+    font-size: 48px;
+    line-height: 120%;
+    color: #1e1e1e;
+}
+
+.details {
+    width: 1180px;
+    margin: 0 auto;
+    margin-top: 64px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, 162px);
+    grid-template-rows: repeat(2, 167px);
+    gap: 105px;
+}
+
+.img__detail {
+    height: 109px;
+    width: 132px;
+}
+
+.description__item_production {
+    width: 132px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #1e1e1e;
+    text-align: center;
+}
