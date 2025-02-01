@@ -3,3 +3,8 @@
     height: 812px;
     background-image: url('/img/processing.png');
 }
+
+.title__trusting {
+    margin-top: 55px;
+    color: #dedede;
+}
