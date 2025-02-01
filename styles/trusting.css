@@ -1,4 +1,4 @@
-.trusting__block {
+.trusting__page {
     width: 100vw;
     height: 812px;
     background-image: url('/img/processing.png');
@@ -8,3 +8,32 @@
     margin-top: 55px;
     color: #dedede;
 }
+
+.block__trusting {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.thanks__letter {
+    margin-top: 44px;
+}
+
+.trusting__list {
+    margin-top: 150px;
+}
+
+.item__trusting {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.text__list {
+    width: 409px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #dedede;
+}
+
