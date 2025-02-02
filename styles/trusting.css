@@ -17,7 +17,7 @@
 }
 
 .thanks__letter {
-    margin-top: 44px;
+    margin-top: 64px;
 }
 
 .trusting__list {
@@ -35,5 +35,11 @@
     font-weight: 400;
     font-size: 16px;
     color: #dedede;
+}
+
+.trusting__button {
+    width: 268px;
+    height: 61px;
+    margin-left: 40px;
 }
 
