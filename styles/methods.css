@@ -1,0 +1,76 @@
+.methods__and__examples {
+    width: 100vw;
+    height: 1300px;
+}
+
+.methods {
+
+}
+
+.examples {
+
+}
+
+.title__methods {
+    margin-top: 64px;
+}
+
+.methods__list {
+    display: flex;
+    max-width: 1180px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 52px;
+}
+
+.method__block {
+    background-image: url(/img/back__methods.svg);
+    box-shadow: 8px 8px 10px 0 rgba(106, 106, 106, 0.1), -8px 0 10px 0 rgba(106, 106, 106, 0.1);
+    border-radius: 30px;
+    width: 350px;
+    height: 550px;
+    justify-content: center;
+    text-align: center;
+}
+
+.method__img {
+    height: 206px;
+    width: 260px;
+    margin: 0 auto;
+    margin-top: 12px;
+    justify-content: center;
+}
+
+.title__method {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #1e1e1e;
+}
+
+.underline__method {
+    width: 140px;
+}
+
+.description__method {
+    width: 250px;
+    height: 72px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #1e1e1e;
+}
+
+.details__method {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 15px;
+    font-weight: 200;
+    font-size: 15px;
+    text-align: center;
+    color: #1e1e1e;
+}
