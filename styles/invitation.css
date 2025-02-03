@@ -3,3 +3,54 @@
     height: 945px;
     background-image: url('/img/processing.png');
 }
+
+.title__invitation {
+    margin: 0 auto;
+    margin-top: 64px;
+    width: 800px;
+    text-align: center;
+    color: #dedede;
+}
+
+.inviting__block {
+    max-width: 1180px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.map__invitation {
+    width: 663px;
+    height: 489px;
+}
+
+.block__modal {
+    width: 428px;
+    height: 489px;
+    background-image: url('/img/back__inviting.svg');
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+.text__modal {
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+.modal__title {
+    width: 280px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 120%;
+    color: #dedede;
+}
+
+.description__inviting {
+    margin-top: 25px;
+    width: 90%;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 160%;
+    color: #dedede;
+}
