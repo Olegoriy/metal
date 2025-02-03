@@ -280,27 +280,47 @@
 
                         <fieldset class="callback__group">
                             <label class="callback__label">
-                                <input class="callback__input" type="text" name="bio" placeholder="Введите ваше имя">
+                                <input class="callback__input" type="text" name="bio" placeholder="Введите ваше имя" required>
                             </label>
         
                             <label class="callback__label">
-                                <input class="callback__input" type="text" name="phone" placeholder="Введите ваш телефон">
+                                <input class="callback__input" type="text" name="phone" placeholder="Введите ваш телефон" required>
                             </label>
 
                             <label class="callback__label">
-                                <input class="callback__input" type="email" name="email" placeholder="Введите ваш e-mail">
+                                <input class="callback__input" type="email" name="email" placeholder="Введите ваш e-mail" required>
+                            </label>
+                        
+                            
+                            <button type="submit" class="callback__btn order__call">ПОСЕТИТЬ ПРОИЗВОДСТВО</button>
+                            
+                            <label class="callback__label">
+                                <input type="checkbox" required>
+                                <span class="checkmark">Я принимаю условия передачи информации</span>
                             </label>
                         </fieldset>
-                            
-                        <button type="submit" class="callback__btn order__call">ПОСЕТИТЬ ПРОИЗВОДСТВО</button>
-        
                     </form>
                 </div>
             </div>
-
         </div>
-        
+        <footer class="footer header">
+            <div class="container header__container">
 
+                <div class = "logotype">
+                    <img class="logo" src="img/logo.svg" alt="image of company's logo">
+                </div>
+
+                <div class="status_and_button">
+                    <div class="status">
+                        <p class="working"><img class="dot" src="img/dot.svg" alt="image of dot"> Сейчас работаем</p>
+                        <a class="number" href="tel:+78005057098" class="contacts__link"><img src="img/phone.svg" alt="image of phone"> 8 (800) 505-70-98</a>
+                    </div>
+                    <button class="order__call">ЗАКАЗАТЬ ЗВОНОК</button>
+                </div>
+                
+
+            </div>
+        </footer>
     </div>
 </body>
 </html>
