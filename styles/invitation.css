@@ -54,3 +54,40 @@
     line-height: 160%;
     color: #dedede;
 }
+
+.modal__form {
+    
+}
+
+.callback__group {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.callback__input {
+    width: 326px;
+    height: 30px;
+    font-style: oblique;
+    background: none;
+    border: none;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #dedede;
+    border-bottom: 2px solid;
+}
+
+.callback__input:focus {
+    outline: none;
+}
+
+.callback__btn {
+    width: 268px;
+    height: 61px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #2f2f2f;
+    margin-top: 20px;
+}
