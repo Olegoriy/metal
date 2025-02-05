@@ -36,3 +36,11 @@ a {
     line-height: 120%;
     text-align: center;
 }
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
