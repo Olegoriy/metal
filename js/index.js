@@ -1,11 +1,10 @@
-"use strict"
-
 window.addEventListener('DOMContentLoaded', () => {
 
     // Modal
 
     const buttonsModal = document.querySelectorAll('.order__call'),
         modal = document.querySelector('.modal');
+        // backModal = document.querySelector('.back__modal');
 
     function openModal() {
         modal.classList.add('show');
@@ -20,7 +19,7 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
     buttonsModal.forEach((btn) => {
-        btn.addEventListener('click', openModal)
+        btn.addEventListener('click', openModal);
     });
 
     document.addEventListener('keydown', (e) => {

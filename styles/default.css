@@ -1,16 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
-*,
-*::before,
-*::after {
-    font-size: 22px;
+
+*{
     box-sizing: border-box;
-    color: black;
     margin: 0;
     padding: 0;
     font-family: Inter, sans-serif;
 }
 
-html, body {
+body {
     min-width: 100%;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -39,8 +36,10 @@ a {
 
 .hide {
     display: none;
+    opacity: 0;
 }
 
 .show {
     display: block;
+    opacity: 1;
 }

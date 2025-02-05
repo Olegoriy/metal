@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Metalworking</title>
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="icon" href="data:,">
 </head>
 <body>
     <main>
@@ -324,38 +325,40 @@
         </div>
     </main>
 
-    <div class="modal hide">
-        <div class="text__modal">
-            <h3 class="modal__title">ПО КАКОМУ НОМЕРУ МОЖЕМ ВАМ ПОЗВОНИТЬ?</h3>
+    <!-- <div class="back__modal hide"> -->
+        <div class="modal hide">
+            <div class="text__modal">
+                <h3 class="modal__title">ПО КАКОМУ НОМЕРУ МОЖЕМ ВАМ ПОЗВОНИТЬ?</h3>
 
-            <p class="description__modal">В течение 15 минут вам позвонит администратор для уточнения деталей вашего проекта и ответитна любые вопросы</p>
+                <p class="description__modal">В течение 15 минут вам позвонит администратор для уточнения деталей вашего проекта и ответитна любые вопросы</p>
 
-            <form class="modal__form">
+                <form class="modal__form">
 
-                <fieldset class="callback__group">
-                    <label class="callback__label">
-                        <input class="callback__input" type="text" name="bio" placeholder="Введите ваше имя" required>
-                    </label>
+                    <fieldset class="callback__group">
+                        <label class="callback__label">
+                            <input class="callback__input" type="text" name="bio" placeholder="Введите ваше имя" required>
+                        </label>
 
-                    <label class="callback__label">
-                        <input class="callback__input" type="text" name="phone" placeholder="Введите ваш телефон" required>
-                    </label>
+                        <label class="callback__label">
+                            <input class="callback__input" type="text" name="phone" placeholder="Введите ваш телефон" required>
+                        </label>
 
-                    <label class="callback__label">
-                        <input class="callback__input" type="email" name="email" placeholder="Введите ваш e-mail" required>
-                    </label>
-                
+                        <label class="callback__label">
+                            <input class="callback__input" type="email" name="email" placeholder="Введите ваш e-mail" required>
+                        </label>
                     
-                    <button type="submit" class="callback__btn modal__btn">Оставить заявку</button>
-                    
-                    <label class="callback__label__checkbox">
-                        <input type="checkbox" required>
-                        <span class="checkmark__modal">Я принимаю условия передачи информации</span>
-                    </label>
-                </fieldset>
-            </form>
+                        
+                        <button type="submit" class="callback__btn modal__btn">Оставить заявку</button>
+                        
+                        <label class="callback__label__checkbox">
+                            <input type="checkbox" required>
+                            <span class="checkmark__modal">Я принимаю условия передачи информации</span>
+                        </label>
+                    </fieldset>
+                </form>
+            </div>
         </div>
-    </div>
+    <!-- </div> -->
     <script src="js/index.js"></script>
 </body>
 </html>
