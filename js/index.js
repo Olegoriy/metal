@@ -3,18 +3,22 @@ window.addEventListener('DOMContentLoaded', () => {
     // Modal
 
     const buttonsModal = document.querySelectorAll('.order__call'),
+        overlay = document.querySelector('.overlay'),
         modal = document.querySelector('.modal');
-        // backModal = document.querySelector('.back__modal');
 
     function openModal() {
         modal.classList.add('show');
+        overlay.classList.add('show');
         modal.classList.remove('hide');
+        overlay.classList.add('hide');
         document.body.style.overflow = 'hidden';
     }
 
     function closeModal() {
         modal.classList.add('hide');
+        overlay.classList.add('hide');
         modal.classList.remove('show');
+        overlay.classList.remove('show');
         document.body.style.overflow = '';
     }
 
@@ -27,5 +31,7 @@ window.addEventListener('DOMContentLoaded', () => {
             closeModal();
         }
     });
+
+    overlay.addEventListener('click', closeModal);
 
 });
