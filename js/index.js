@@ -7,6 +7,8 @@ window.addEventListener('DOMContentLoaded', () => {
         modal = document.querySelector('.modal');
 
     function openModal() {
+        modal.classList.remove('hidden');
+        overlay.classList.remove('hidden');
         modal.classList.add('show');
         overlay.classList.add('show');
         modal.classList.remove('hide');

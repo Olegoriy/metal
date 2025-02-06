@@ -52,6 +52,14 @@
     cursor: pointer;
 }
 
+.order__call:hover {
+    box-shadow: 0 5px 15px 0 rgba(255, 255, 51, 0.5);
+}
+
+.order__call:active {
+    box-shadow: inset -6px -6px 25px 0 rgba(0, 0, 0, 0.2), inset 6px 6px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
 @media (max-width: 1250px) {
     .header__container{
         max-width: 95vw;
