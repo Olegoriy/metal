@@ -40,6 +40,9 @@
     font-size: 10px;
     color: #dedede;
 }
+.callback__label__checkbox__invite {
+    margin-top: 15px;
+}
 
 .callback__label__checkbox {
     width: 240px;
