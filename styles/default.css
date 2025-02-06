@@ -39,9 +39,10 @@ button:focus {
 }
 
 .hide {
-    display: none;
+    animation: modalClose 0.3s ease-in-out forwards;
 }
 
 .show {
     display: block;
+    animation: modalOpen 0.3s ease-in-out forwards;
 }

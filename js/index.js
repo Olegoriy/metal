@@ -10,15 +10,15 @@ window.addEventListener('DOMContentLoaded', () => {
         modal.classList.add('show');
         overlay.classList.add('show');
         modal.classList.remove('hide');
-        overlay.classList.add('hide');
+        overlay.classList.remove('hide');
         document.body.style.overflow = 'hidden';
     }
 
     function closeModal() {
-        modal.classList.add('hide');
-        overlay.classList.add('hide');
         modal.classList.remove('show');
         overlay.classList.remove('show');
+        modal.classList.add('hide');
+        overlay.classList.add('hide');
         document.body.style.overflow = '';
     }
 
