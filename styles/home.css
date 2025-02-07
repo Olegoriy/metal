@@ -1,6 +1,6 @@
 .home__page {
     width: 100vw;
-    height: 962px;
+    height: 100vh;
     background-image: url('../img/home.png');
     background-size: cover; 
     background-position: center; 

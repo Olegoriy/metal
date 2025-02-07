@@ -86,6 +86,15 @@
     }
 }
 
+.return__page {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/home.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
 .title__result {
     font-weight: 700;
     margin-bottom: 0;

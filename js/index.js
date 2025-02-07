@@ -4,7 +4,11 @@ window.addEventListener('DOMContentLoaded', () => {
 
     const buttonsModal = document.querySelectorAll('.order__call'),
         overlay = document.querySelector('.overlay'),
-        modal = document.querySelector('.modal');
+        modal = document.querySelector('.modal'),
+        returnPage = document.querySelector('.return__page'),
+        main = document.querySelector('main'),
+        submitBtns = document.querySelectorAll('.callback__btn'),
+        returnBtn = document.querySelector('.return__btn');
 
     function openModal() {
         modal.classList.remove('hidden');
@@ -35,5 +39,26 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 
     overlay.addEventListener('click', closeModal);
+
+    function openReturn() {
+        closeModal();
+        main.classList.remove('show__main');
+        main.classList.add('hide__main');
+        returnPage.classList.add('show__main');
+        returnPage.classList.remove('hide__main');
+    }
+
+    function closeReturn() {
+        main.classList.add('show__main');
+        main.classList.remove('hide__main');
+        returnPage.classList.remove('show__main');
+        returnPage.classList.add('hide__main');
+    }
+
+    submitBtns.forEach(btn => {
+        btn.addEventListener('click', openReturn);
+    })
+
+    returnBtn.addEventListener('click', closeReturn);
 
 });
