@@ -50,3 +50,11 @@ button:focus {
     display: block;
     animation: modalOpen 0.3s ease-in-out forwards;
 }
+
+.show__main {
+    display: block;
+}
+
+.hide__main {
+    display: none;
+}

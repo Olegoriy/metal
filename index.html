@@ -8,7 +8,7 @@
     <link rel="icon" href="data:,">
 </head>
 <body>
-    <main>
+    <main class="hide__main">
         <div class="home__page">
             <header class="page__header header">
                 <div class="container header__container">
@@ -282,7 +282,7 @@
 
                             <fieldset class="callback__group">
                                 <label class="callback__label">
-                                    <input class="callback__input" type="text" name="bio" placeholder="Введите ваше имя" required>
+                                    <input class="callback__input" type="text" name="name" placeholder="Введите ваше имя" required>
                                 </label>
             
                                 <label class="callback__label">
@@ -335,7 +335,7 @@
 
                     <fieldset class="callback__group">
                         <label class="callback__label">
-                            <input class="callback__input" type="text" name="bio" placeholder="Введите ваше имя" required>
+                            <input class="callback__input" type="text" name="name" placeholder="Введите ваше имя" required>
                         </label>
 
                         <label class="callback__label">
@@ -358,6 +358,35 @@
             </div>
         </div>
         <div class="overlay hidden"></div>
+
+
+        <div class="home__page">
+            <header class="page__header header">
+                <div class="container header__container">
+
+                    <div class = "logotype">
+                        <img class="logo" src="img/logo.svg" alt="image of company's logo">
+                    </div>
+
+                    <div class="status_and_button">
+                        <div class="status">
+                            <p class="working"><img class="dot" src="img/dot.svg" alt="image of dot"> Сейчас работаем</p>
+                            <a class="number" href="tel:+78005057098" class="contacts__link"><img src="img/phone.svg" alt="image of phone"> 8 (800) 505-70-98</a>
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </header>
+
+            <div class="home__info">
+                <h1 class="title__home title__result">Благодарим вас за заявку!</h1>
+                <h1 class="title__home description__result">Мы свяжемся с вами в ближайшее время!</h1>
+
+                
+                <button class="return__btn">ВЕРНУТЬСЯ НА САЙТ</button>
+            </div>
+        </div>
     <script src="js/index.js"></script>
 </body>
 </html>
