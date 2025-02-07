@@ -56,7 +56,10 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
     submitBtns.forEach(btn => {
-        btn.addEventListener('click', openReturn);
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            openReturn();
+        } )
     })
 
     returnBtn.addEventListener('click', closeReturn);
