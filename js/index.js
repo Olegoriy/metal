@@ -78,10 +78,16 @@ window.addEventListener('DOMContentLoaded', () => {
 
     const certificates = document.querySelectorAll('.thanks__letter');
 
-    // certificates.forEach(item => {
-    //     item.styles.display = 'none';
-    // })
+    certificates.forEach(item => {
+        item.style.display = 'none';
+    })
 
-    console.log(certificates);
+    const certificateIndex = 1;
+
+    for (let i = 0; i < certificates.length; i++) {
+        if (i === certificateIndex) {
+            certificates[i].style.display = 'block'
+        }
+    }
 
 });
