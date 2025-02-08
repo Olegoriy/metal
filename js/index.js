@@ -7,6 +7,8 @@ window.addEventListener('DOMContentLoaded', () => {
         modal = document.querySelector('.modal'),
         returnPage = document.querySelector('.return__page'),
         main = document.querySelector('main'),
+        modalBtn = document.querySelector('.modal__btn'),
+        inviteBtn = document.querySelector('.invite__btn'),
         submitBtns = document.querySelectorAll('.callback__btn'),
         returnBtn = document.querySelector('.return__btn');
 
@@ -21,6 +23,18 @@ window.addEventListener('DOMContentLoaded', () => {
     }
 
     function closeModal() {
+        const inputs = document.querySelectorAll('.callback__input');
+        inputs.forEach(input => {
+            if (input.type === 'checkbox') {
+                input.checked = false;
+            }
+            input.value = '';
+        });
+        
+        // modalBtn.value ='Оставить заявку';
+        // inviteBtn.value = 'ПОСЕТИТЬ ПРОИЗВОДСТВО';
+
+    
         modal.classList.remove('show');
         overlay.classList.remove('show');
         modal.classList.add('hide');
