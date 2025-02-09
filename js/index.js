@@ -76,18 +76,41 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // Slider
 
-    const certificates = document.querySelectorAll('.thanks__letter');
+    const certificates = document.querySelectorAll('.thanks__letter'),
+            arrowLeft = document.querySelector('.arrow__left'),
+            arrowRight = document.querySelector('.arrow__right');
 
+    let certificateIndex = 0;
     certificates.forEach(item => {
         item.style.display = 'none';
     })
 
-    const certificateIndex = 1;
+    certificates[0].style.display = 'block';
 
-    for (let i = 0; i < certificates.length; i++) {
-        if (i === certificateIndex) {
-            certificates[i].style.display = 'block'
+    function showCardsSlider() {
+        for (let i = 0; i < certificates.length; i++) {
+            if (i === certificateIndex) {
+                certificates[i].style.display = 'block'
+            } else {
+                certificates[i].style.display = 'none'
+            }
         }
     }
+
+    arrowLeft.addEventListener('click', (e) => {
+        certificateIndex = certificateIndex - 1;
+        if (certificateIndex < 0) {
+            certificateIndex = certificates.length - 1;
+        }
+        showCardsSlider();
+    })
+
+    arrowRight.addEventListener('click', (e) => {
+        certificateIndex = certificateIndex + 1;
+        if (certificateIndex >= certificates.length) {
+            certificateIndex = 0;
+        }
+        showCardsSlider();
+    })
 
 });
