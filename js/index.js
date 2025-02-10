@@ -78,39 +78,52 @@ window.addEventListener('DOMContentLoaded', () => {
 
     const certificates = document.querySelectorAll('.thanks__letter'),
             arrowLeft = document.querySelector('.arrow__left'),
-            arrowRight = document.querySelector('.arrow__right');
+            arrowRight = document.querySelector('.arrow__right'),
+            slidesWrapper = document.querySelector('.slider-wrapper'),
+            slidesField = document.querySelector('.slider-inner'),
+            width = window.getComputedStyle(slidesWrapper).width;
 
-    let certificateIndex = 0;
-    certificates.forEach(item => {
-        item.style.display = 'none';
-    })
+    let certificateIndex = 0,
+        offset = 0;
 
-    certificates[0].style.display = 'block';
 
-    function showCardsSlider() {
-        for (let i = 0; i < certificates.length; i++) {
-            if (i === certificateIndex) {
-                certificates[i].style.display = 'block'
-            } else {
-                certificates[i].style.display = 'none'
-            }
-        }
-    }
+        slidesField.style.width = 100 * certificates.length + '%';
+        slidesField.style.display = 'flex';
+        slidesField.style.transition = '0.5s all';
 
-    arrowLeft.addEventListener('click', (e) => {
-        certificateIndex = certificateIndex - 1;
-        if (certificateIndex < 0) {
-            certificateIndex = certificates.length - 1;
-        }
-        showCardsSlider();
-    })
 
-    arrowRight.addEventListener('click', (e) => {
-        certificateIndex = certificateIndex + 1;
-        if (certificateIndex >= certificates.length) {
-            certificateIndex = 0;
-        }
-        showCardsSlider();
-    })
+
+
+    // certificates.forEach(item => {
+    //     item.style.display = 'none';
+    // })
+
+    // certificates[0].style.display = 'block';
+
+    // function showCardsSlider() {
+    //     for (let i = 0; i < certificates.length; i++) {
+    //         if (i === certificateIndex) {
+    //             certificates[i].style.display = 'block'
+    //         } else {
+    //             certificates[i].style.display = 'none'
+    //         }
+    //     }
+    // }
+
+    // arrowLeft.addEventListener('click', (e) => {
+    //     certificateIndex = certificateIndex - 1;
+    //     if (certificateIndex < 0) {
+    //         certificateIndex = certificates.length - 1;
+    //     }
+    //     showCardsSlider();
+    // })
+
+    // arrowRight.addEventListener('click', (e) => {
+    //     certificateIndex = certificateIndex + 1;
+    //     if (certificateIndex >= certificates.length) {
+    //         certificateIndex = 0;
+    //     }
+    //     showCardsSlider();
+    // })
 
 });
