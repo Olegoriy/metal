@@ -128,39 +128,4 @@ window.addEventListener('DOMContentLoaded', () => {
                 slideIndex--;
             }
         });
-
-
-
-    // certificates.forEach(item => {
-    //     item.style.display = 'none';
-    // })
-
-    // certificates[0].style.display = 'block';
-
-    // function showCardsSlider() {
-    //     for (let i = 0; i < certificates.length; i++) {
-    //         if (i === certificateIndex) {
-    //             certificates[i].style.display = 'block'
-    //         } else {
-    //             certificates[i].style.display = 'none'
-    //         }
-    //     }
-    // }
-
-    // arrowLeft.addEventListener('click', (e) => {
-    //     certificateIndex = certificateIndex - 1;
-    //     if (certificateIndex < 0) {
-    //         certificateIndex = certificates.length - 1;
-    //     }
-    //     showCardsSlider();
-    // })
-
-    // arrowRight.addEventListener('click', (e) => {
-    //     certificateIndex = certificateIndex + 1;
-    //     if (certificateIndex >= certificates.length) {
-    //         certificateIndex = 0;
-    //     }
-    //     showCardsSlider();
-    // })
-
 });
