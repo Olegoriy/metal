@@ -286,26 +286,24 @@
 
                         <p class="description__inviting">Приезжайте на наше производство и лично убедитесь в его масштабах, новизне оборудования и профессионализме сотрудников</p>
 
-                        <form class="modal__form">
-
+                        <form class="modal__form" name="form" id="form">
                             <fieldset class="callback__group">
-                                <label class="callback__label">
-                                    <input class="callback__input" type="text" name="name" placeholder="Введите ваше имя" required>
+                                <label class="callback__label" for="name">
+                                    <input class="callback__input" type="text" id="name" name="name" placeholder="Введите ваше имя" required autocomplete="name">
                                 </label>
-            
-                                <label class="callback__label">
-                                    <input class="callback__input" type="text" name="phone" placeholder="Введите ваш телефон" required>
+                        
+                                <label class="callback__label" for="phone">
+                                    <input class="callback__input" type="text" id="phone" name="phone" placeholder="Введите ваш телефон" required autocomplete="phone">
                                 </label>
-
-                                <label class="callback__label">
-                                    <input class="callback__input" type="email" name="email" placeholder="Введите ваш e-mail" required>
+                        
+                                <label class="callback__label" for="email">
+                                    <input class="callback__input" type="email" id="email" name="email" placeholder="Введите ваш e-mail" required autocomplete="email">
                                 </label>
-                            
-                                
-                                <input type="submit" class="callback__btn invite__btn" value="ПОСЕТИТЬ ПРОИЗВОДСТВО" / >
-                                
+                        
+                                <input type="submit" class="callback__btn invite__btn" value="ПОСЕТИТЬ ПРОИЗВОДСТВО">
+                        
                                 <label class="callback__label__checkbox__invite">
-                                    <input type="checkbox" required>
+                                    <input type="checkbox" id="terms" name="terms" required>
                                     <span class="checkmark">Я принимаю условия передачи информации</span>
                                 </label>
                             </fieldset>
@@ -339,30 +337,27 @@
 
                 <p class="description__modal">В течение 15 минут вам позвонит администратор для уточнения деталей вашего проекта и ответитна любые вопросы</p>
 
-                <form class="modal__form">
-
+                <form class="modal__form" name="form" id="form">
                     <fieldset class="callback__group">
-                        <label class="callback__label">
-                            <input class="callback__input" type="text" name="name" placeholder="Введите ваше имя" required>
+                        <label class="callback__label" for="name">
+                            <input class="callback__input" type="text" id="name" name="name" placeholder="Введите ваше имя" required autocomplete="name">
                         </label>
-
-                        <label class="callback__label">
-                            <input class="callback__input" type="text" name="phone" placeholder="Введите ваш телефон" required>
+                
+                        <label class="callback__label" for="phone">
+                            <input class="callback__input" type="text" id="phone" name="phone" placeholder="Введите ваш телефон" required autocomplete="tel">
                         </label>
-
-                        <label class="callback__label">
-                            <input class="callback__input" type="email" name="email" placeholder="Введите ваш e-mail" required>
+                
+                        <label class="callback__label" for="email">
+                            <input class="callback__input" type="email" id="email" name="email" placeholder="Введите ваш e-mail" required autocomplete="email">
                         </label>
-                    
                         
                         <input class="callback__btn modal__btn" type="submit" value="Оставить заявку" />
                         
                         <label class="callback__label__checkbox">
-                            <input type="checkbox" required>
+                            <input type="checkbox" id="terms" name="terms" required>
                             <span class="checkmark__modal">Я принимаю условия передачи информации</span>
                         </label>
                     </fieldset>
-
                 </form>
             </div>
         </div>
