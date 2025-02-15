@@ -1,7 +1,7 @@
 .info__page {
     width: 100vw;
     height: 1201px;
-    background-image: url('/img/info__img.png');
+    background-image: url('../img/info__img.png');
 }
 
 .title__info {

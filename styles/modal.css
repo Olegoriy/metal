@@ -3,7 +3,7 @@
     position: fixed;
     top: 50%;
     left: 50%;  
-    background-image: url('/img/back__modal.svg');
+    background-image: url('../img/back__modal.svg');
     border: 1px solid white;
     border-radius: 25px;
     width: 428px;

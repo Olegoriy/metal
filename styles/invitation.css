@@ -2,7 +2,7 @@
     position: relative;
     width: 100vw;
     height: 945px;
-    background-image: url('/img/processing.png');
+    background-image: url('../img/blue__back.svg');
 }
 
 .title__invitation {
@@ -29,7 +29,7 @@
 .block__modal {
     width: 428px;
     height: 489px;
-    background-image: url('/img/back__inviting.svg');
+    background-image: url('../img/back__inviting.svg');
     border: 1px solid white;
     border-radius: 25px;
 }

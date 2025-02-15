@@ -1,7 +1,7 @@
 .trusting__page {
     width: 100vw;
     height: 812px;
-    background-image: url('/img/processing.png');
+    background-image: url('../img/blue__back.svg');
 }
 
 .title__trusting {

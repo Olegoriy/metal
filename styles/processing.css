@@ -1,7 +1,7 @@
 .processing__page {
     width: 100vw;
     height: 1183px;
-    background-image: url('/img/processing.png');
+    background-image: url('../img/processing.png');
 }
 
 .title__processing {
@@ -25,7 +25,7 @@
     width: 560px;
     height: 833px;
     text-align: center;
-    background-image: url('/img/back__block.svg')
+    background-image: url('../img/back__block.svg')
 }
 
 .title__block {

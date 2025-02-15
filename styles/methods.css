@@ -17,7 +17,7 @@
 }
 
 .method__block {
-    background-image: url(/img/back__methods.svg);
+    background-image: url('../img/back__methods.svg');
     box-shadow: 8px 8px 10px 0 rgba(106, 106, 106, 0.1), -8px 0 10px 0 rgba(106, 106, 106, 0.1);
     border-radius: 30px;
     width: 350px;
