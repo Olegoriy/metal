@@ -64,12 +64,6 @@ window.addEventListener('DOMContentLoaded', () => {
         returnPage.classList.add('hide__main');
     }
 
-    submitBtns.forEach(btn => {
-        btn.addEventListener('click', (e) => {
-            e.preventDefault();
-            openReturn();
-        } )
-    })
 
     returnBtn.addEventListener('click', closeReturn);
 
@@ -165,6 +159,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 }).finally(() => {
                     form.reset();
                 })
+                openReturn();
             });
         }
 });
