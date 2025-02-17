@@ -3,13 +3,12 @@
     position: fixed;
     top: 50%;
     left: 50%;  
-    background-image: url('../img/back__modal.svg'), linear-gradient(to bottom, #311602, #7e5231);
+    background-image: url('../img/back__modal.svg'), linear-gradient(to top, #311602, #57371f);
     border: 1px solid white;
     border-radius: 25px;
     width: 428px;
     height: 489px;
 }
-
 
 .modal__title {
     width: 335px;
@@ -29,6 +28,10 @@
     color: #dedede;
 }
 
+.callback__input {
+    border-radius: 5px;
+}
+
 .modal__btn {
     width: 268px;
     height: 61px;
@@ -40,6 +43,7 @@
     font-size: 10px;
     color: #dedede;
 }
+
 .callback__label__checkbox__invite {
     margin-top: 15px;
 }
