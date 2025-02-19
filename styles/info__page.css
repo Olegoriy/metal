@@ -38,10 +38,6 @@
     grid-area: second;
 }
 
-.img__bor {
-    
-}
-
 .text__bor {
     width: 98%;
     margin: 0 auto;
@@ -77,10 +73,6 @@
 
 .fourth__block__info {
     grid-area: fourth;
-}
-
-.img__machinery {
-
 }
 
 .title__machinery {
