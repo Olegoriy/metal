@@ -79,9 +79,8 @@
     }
 }
 
-/* @media (max-width: 1024px) {
+@media (max-width: 1024px) {
     .home__page {
-        width: 1024px;
-        height: 1100px;
+        background-image: url('../img/home__second.svg');
     }
-} */
+}
