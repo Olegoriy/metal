@@ -23,6 +23,10 @@
     column-gap: 20px;
 }
 
+#img__info {
+    width: 100%;
+}
+
 .first__block__info {
     grid-area: first;
 }
@@ -95,5 +99,15 @@
 @media (max-width: 1300px) {
     .blocks__info {
         max-width: 90vw;
+    }
+}
+
+
+@media (max-width: 1300px) {
+    .blocks__info {
+        max-width: 90vw;
+        display: grid;
+        grid-template-columns: repeat(2, 45vw);
+        grid-template-rows: repeat(2, 0.9fr);
     }
 }
