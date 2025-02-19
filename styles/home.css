@@ -83,4 +83,10 @@
     .home__page {
         background-image: url('../img/home__second.svg');
     }
+
+    .title__home {
+        width: 80%;
+        font-size: 32px;
+        line-height: 120%;        
+    }
 }
