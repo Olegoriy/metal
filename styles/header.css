@@ -67,7 +67,7 @@
 }
 
 @media (max-width: 600px) {
-    .header__button{
+    .header__footer__button{
         display: none;
     }    
 }
