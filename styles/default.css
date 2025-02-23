@@ -31,11 +31,13 @@ button:focus {
     margin-top: -2vw;
 }
 
-.title {
+.title { 
     font-weight: 500;
     font-size: 48px;
     line-height: 120%;
     text-align: center;
+    margin: 0 auto;
+    width: 90vw;
 }
 
 .hidden {
@@ -92,4 +94,10 @@ form:valid input[type="submit"].callback__btn:hover {
 
 form:valid input[type="submit"].callback__btn:active {
     box-shadow: inset -6px -6px 25px 0 rgba(0, 0, 0, 0.2), inset 6px 6px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 850px) {
+    .title {
+        font-size: 32px;
+    }
 }
