@@ -1,15 +1,15 @@
 window.addEventListener('DOMContentLoaded', () => {
     // Slider
 
-    const certificates = document.querySelectorAll('.thanks__letter'),
-            prev = document.querySelector('.arrow__left'),
-            next = document.querySelector('.arrow__right'),
-            slidesWrapper = document.querySelector('.slider-wrapper'),
-            slidesField = document.querySelector('.slider-inner'),
-            width = window.getComputedStyle(slidesWrapper).width;
+    const certificates = document.querySelectorAll('.thanks__letter');
+    const prev = document.querySelector('.arrow__left');
+    const next = document.querySelector('.arrow__right');
+    const slidesWrapper = document.querySelector('.slider-wrapper');
+    const slidesField = document.querySelector('.slider-inner');
+    const width = window.getComputedStyle(slidesWrapper).width;
 
-    let slideIndex = 1,
-        offset = 0;
+    let slideIndex = 1;
+    let offset = 0;
 
 
         slidesField.style.width = 100 * certificates.length + '%';
@@ -57,13 +57,12 @@ window.addEventListener('DOMContentLoaded', () => {
 
         // Forms and Modal
         const forms = document.querySelectorAll('form');
-
-        const buttonsModal = document.querySelectorAll('.order__call'),
-        overlay = document.querySelector('.overlay'),
-        modal = document.querySelector('.modal'),
-        returnPage = document.querySelector('.return__page'),
-        main = document.querySelector('main'),
-        returnBtn = document.querySelector('.return__btn');
+        const buttonsModal = document.querySelectorAll('.order__call');
+        const overlay = document.querySelector('.overlay');
+        const modal = document.querySelector('.modal');
+        const returnPage = document.querySelector('.return__page');
+        const main = document.querySelector('main');
+        const returnBtn = document.querySelector('.return__btn');
 
     function openModal() {
         modal.classList.remove('hidden');
