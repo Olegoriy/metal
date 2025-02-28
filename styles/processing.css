@@ -90,6 +90,7 @@
 }
 
 .detailed {
+    padding: 0 5px;
     position: absolute;
     margin: 0 auto;
     right: 25%;
@@ -155,5 +156,11 @@
     .star__description {
         font-size: 10px;
         margin-left: 40px;
+    }
+}
+
+@media (max-width: 650px) {
+    .detailed {
+        font-size: 10px;
     }
 }
