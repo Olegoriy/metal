@@ -158,13 +158,16 @@ window.addEventListener('DOMContentLoaded', () => {
 
     function applyStyles() {
         if (window.innerWidth <= 950) {
-            certificates.style.width = '35vw';
-            certificates.style.objectFit = 'cover';
-
-            slidesWrapper.style.width = '35vw';
+            certificates.forEach(certificate => {
+                certificate.style.width = '25vw';
+                certificate.style.objectFit = 'contain';
+            });
+            slidesWrapper.style.width = '25vw';
         } else {
-            certificates.style.width = '';
-            certificates.style.objectFit = '';
+            certificates.forEach(certificate => {
+                certificate.style.width = '';
+                certificate.style.objectFit = '';
+            });
 
             slidesWrapper.style.width = '';
         }
