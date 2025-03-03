@@ -6,7 +6,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const next = document.querySelector('.arrow__right');
     const slidesWrapper = document.querySelector('.slider-wrapper');
     const slidesField = document.querySelector('.slider-inner');
-    const width = window.getComputedStyle(slidesWrapper).width;
+    let width = window.getComputedStyle(slidesWrapper).width;
 
     let slideIndex = 1;
     let offset = 0;
@@ -19,6 +19,7 @@ window.addEventListener('DOMContentLoaded', () => {
         slidesWrapper.style.overflow = 'hidden';
 
         certificates.forEach(certificate => {
+            let width = window.getComputedStyle(slidesWrapper).width;
             certificate.style.width = width;
         });
 
@@ -153,4 +154,22 @@ window.addEventListener('DOMContentLoaded', () => {
             openReturn();
         });
     }
+
+
+    function applyStyles() {
+        if (window.innerWidth <= 950) {
+            certificates.style.width = '35vw';
+            certificates.style.objectFit = 'cover';
+
+            slidesWrapper.style.width = '35vw';
+        } else {
+            certificates.style.width = '';
+            certificates.style.objectFit = '';
+
+            slidesWrapper.style.width = '';
+        }
+    }
+
+
+    window.addEventListener('resize', applyStyles);
 });
